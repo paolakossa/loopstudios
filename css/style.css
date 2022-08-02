@@ -1,0 +1,123 @@
+:root{
+
+	--white: hsl(0, 0%, 100%);
+	--black: hsl(0, 0%, 0%);
+	--dark-gray: hsl(0, 0%, 55%);
+	--very-dark-gray: hsl(0, 0%, 41%);
+	--font-a: 'Alata', sans-serif;
+	--font-j:'Josefin Sans', sans-serif;
+}
+
+/* Header e Menu Styling */
+
+header{
+	background: url(../images/mobile/image-hero.jpg);
+	background-size: 100vw;
+	height: 120vh;
+	
+}
+
+#header {
+    
+    color: var(--black);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+
+   
+    
+}
+
+.header_logo {
+    margin: 2rem;
+    width: 40vw;
+
+}
+
+#nav {
+    text-align: center;
+}
+
+#menu{
+
+    display: block;
+    position: absolute;
+    width: 100vw;
+    right: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+    background-color: var(--black);
+
+
+    
+
+}
+
+#menu a {
+    display: block;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    font-size: 20px;
+    color: var(--white);
+    font-family: var(--font-j);
+   	text-transform: uppercase;
+
+
+
+   
+}
+
+#btn-mobile{
+    
+    display: flex;
+    padding: .5rem 1rem
+    font-size: 1rem;
+    border:none;
+    cursor: pointer;
+    margin: 2rem 1rem;
+    background-color: #4C3575;
+    
+}
+
+#nav.active #menu {
+  height: 80vw;
+  visibility: visible;
+
+}
+
+#hamburger{
+display: block;
+border-top: 2px solid var(--white);
+width: 20px;
+
+}
+
+#hamburger::after , #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background: var(--white);
+    transition: .3s;
+    position: relative;
+}
+
+#nav.active #hamburger{ 
+
+    border-top-color: transparent;
+ }
+
+ #nav.active #hamburger::before{
+    transform: rotate(135deg);
+ }
+
+ #nav.active #hamburger::after{
+    transform: rotate(-135deg);
+    top:-7px;
+
+ }
