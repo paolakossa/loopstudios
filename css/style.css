@@ -40,6 +40,7 @@ header{
 
 #nav {
     text-align: center;
+
 }
 
 #menu{
@@ -51,6 +52,7 @@ header{
     visibility: hidden;
     overflow-y: hidden;
     background-color: var(--black);
+
 
 
     
@@ -120,4 +122,54 @@ width: 20px;
     transform: rotate(-135deg);
     top:-7px;
 
+ }
+
+ .chamada{ 
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	text-align: justify;
+ 	margin-top: -26.5rem;
+ 	margin-left: 1rem;
+ 	margin-right: 1rem;
+ 	padding: 1rem;
+ 	color: var(--white);
+ 	box-sizing: border-box;
+    border: 2px solid var(--white);
+    text-transform: uppercase;
+    font-size: 44px;
+    font-family: var(--font-j);
+
+  }
+ 
+ .principal{
+
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .principal_img{
+
+ 	margin-top: 18rem;
+ 	width: 90vw;
+ 	margin-left: 1rem;
+ 	
+ }
+
+ .principal_titulo{
+ 
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 25px;
+  margin-left: 1rem;
+  padding: 1rem;
+
+ }
+
+ .principal_texto{
+ 	text-align: center;
+ 	margin-left: 3rem;
+ 	margin-right: 3rem;
+ 	color: var(--very-dark-gray);
+ 	font-size: 15px;
+ 	padding: 1rem;
  }
