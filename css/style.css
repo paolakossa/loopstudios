@@ -300,6 +300,23 @@ cursor: pointer;
  	color: hsl(228, 45%, 44%); 
  }
 
+ .destaques_desktop_titulo_botao{
+ 	display: none;
+ }
+
+ .destaques_desktop_primeiro{
+
+ 	display: none;
+ }
+
+ .destaques_desktop_segundo{
+ 	display: none;
+ }
+
+ .nome_foto_desktop{
+ 	display: none;
+ }
+
 @media only screen and  (min-width:1024px) {
 
 	header{
@@ -445,4 +462,165 @@ cursor: pointer;
    	margin-left: 4rem;
 
    }
+
+   .destaques{
+   	display: none;
+   }
+
+   .destaques_desktop_titulo_botao{
+
+   	display: flex;
+   	align-items: center;
+   	justify-content: space-between;
+   	margin-top: 2rem;
+   }
+
+   .destaques_titulo{
+
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: var(--font-j);
+	margin-top: 3rem;
+	margin-left: 6rem;
+
+ }
+
+ .botao{
+
+ 	width: 10vw;
+ 	text-transform: uppercase;
+ 	cursor: pointer;
+ 	background-color: var(--white);
+ 	font-family: var(--font-a);
+ 	letter-spacing: .5rem;
+ 	margin-right: 6rem;
+ }
+
+ 
+ .destaques_desktop_primeiro{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-left: 6rem;
+ margin-right: 4rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+	
+}
+
+.destaques_desktop_segundo{
+
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+.destaques_texto_desktop{
+ 	
+ 	margin-top: -5rem;
+ 	color: var(--black);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+ 	width: 40%;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    margin-left: 1rem;
+
+}
+
+.nome_foto_desktop{
+
+	display: inherit;
+}
+
+.destaques_texto_grid_desktop{
+
+	margin-top: -3rem;
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 68rem;
+}
+
+.destaques_texto_desktop_deep{
+ 	margin-top: -8rem;
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 8rem;
+
+}
+
+.destaques_texto_desktop_nigth{
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 28rem;
+    margin-top: -3rem;
+}
+.destaques_texto_desktop_soccer{
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 48rem;
+    margin-top: -3rem;
+}
+
+.destaques_texto_desktop_from{
+
+	margin-top: -5rem;
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 8rem;
+}
+
+.destaques_texto_desktop_pocket{
+	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 28rem;
+    margin-top: -3rem;
+
+}
+
+.destaques_texto_desktop_the{
+  	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 48rem;
+    margin-top: -3rem;
+
+}
+
+.destaques_texto_desktop_make{
+ 
+    margin-top: -3rem;
+ 	color: var(--white);
+ 	text-transform: uppercase;
+ 	font-family: var(--font-j);
+ 	font-size: 25px;
+    margin-left: 68rem;
+
+}
+
+footer{
+ 	margin-top: 20rem;
+ 	background-color: var(--black);
+ 	height: 85vh;
+
+ }
+
 }
