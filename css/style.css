@@ -317,7 +317,7 @@ cursor: pointer;
  	display: none;
  }
 
-@media only screen and  (min-width:1024px) {
+@media only screen and  (min-width:1200px) {
 
 	header{
 	background: url(../images/desktop/image-hero.jpg);
@@ -617,10 +617,65 @@ cursor: pointer;
 }
 
 footer{
- 	margin-top: 20rem;
+ 	margin-top: 10rem;
  	background-color: var(--black);
- 	height: 85vh;
+ 	height: 30vh;
 
+ }
+
+ .footer_logo{
+
+ 	width: 15vw;
+ 	margin-top: 4rem;
+ 	margin-left: 7rem;
+ }
+
+ .nav_footer{
+
+ 	color: var(--white);
+ 	display: flex;
+ 	align-items: flex-start;
+ 	margin-top: 1rem;
+ 	margin-left: 6rem;
+
+ }
+
+ ul{
+ 	display: flex;
+
+ }
+
+ .menu_footer li{
+ 	display: flex;
+ 	margin: 1rem;
+ 	cursor: pointer;
+
+ }
+
+ .redes_sociais{
+ 	
+ 	margin-left: 70rem;
+ 	margin-top: -6rem;
+ }
+
+ .redes_sociais_img{
+ 	padding: .3rem;
+ }
+
+ .footer_texto{
+ 	color: var(--very-dark-gray);
+ 	font-family: var(--font-a);
+ 	margin-left: 61rem;
+
+ 	
+ }
+
+ .attribution { 
+ 	font-size: 15px; text-align: center; 
+ }
+
+ .attribution a { 
+ 	color: hsl(228, 45%, 44%); 
  }
 
 }
